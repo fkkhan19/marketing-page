@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url(feedbackbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    ckground-attachment: fixed;
+}
+.transperantcard{
+    padding-top: 60px;
+    height: 80%;
+    width: 40%;
+    top: 10%;
+    left: 30%;
+    color: aqua;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.7px);
+    -webkit-backdrop-filter: blur(4.7px);
+    border: 1px solid rgba(0, 0, 0, 0.62);
+}
+.transperantcard p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5625vw;
+    position: relative;
+    top: -2%;
+    left: 7%;
+}
+.transperantcard form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0%;
+}
+
+.transperantcard input,
+.transperantcard textarea {
+    font-family: 'Nova Square', sans-serif;
+    font-size: 15px;
+    height: 90%;
+    width: 85%;
+    position: relative;
+    left: 5%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #171717;
+    border-radius: 4px;
+}
+.transperantcard .message-input {
+    height: 150px;
+}
+.transperantcard input::placeholder,
+.transperantcard textarea::placeholder {
+    color: black;
+}
+.transperantcard input[type="submit"] {
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    bottom: 10%;
+    position: relative;
+    width: 40%;
+    left: 15%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    margin: 0;
+}
+
+.transperantcard input[type="submit"]:hover {
+    color: black;
+    background-color: #bf9b30;
+}

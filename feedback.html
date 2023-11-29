@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="feedback-mediaquery.css">
+    <title>Feedback</title>
+</head>
+<body>
+    <main>
+        <div class="transperantcard"><p> Share your thoughts with us.</p>
+        <form method="post" name="google-sheet">
+            <label for="name"></label>
+            <input type="text" placeholder="Enter your name" id="name" name="name" required><br><br>
+            <label for="email"></label>
+            <input type="text" placeholder="Enter your email or number" id="email" name="email" required><br><br>
+            <label for="message"></label><br>
+            <textarea id="message" class="message-input" placeholder="Enter your message" name="message" rows="4" cols="50" required></textarea><br><br>
+            <input id="submit" type="submit" value="Submit" name="submit">
+        </form>
+    </div>
+    </main>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxtkMYFZty23SPFv7D3u_QM8-FTHnbN1vFTN5C656qCdPU8iBnLzx2ZlPcdq5i0gpKr/exec'
+        const form = document.forms['google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>

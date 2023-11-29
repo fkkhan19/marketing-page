@@ -1,0 +1,291 @@
+@media only screen and (max-width: 900px){
+    .ownerimg img{
+        height: auto;
+        width: 60px;
+        position: absolute;
+        left: 1%;
+        top: 10%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .ownerimg img{
+        height: auto;
+        width: 60px;
+        position: absolute;
+        left: 10vw;
+        top: 2vw;
+        
+    }
+    header h1{
+        font-size: 3.5em;
+        position: absolute;
+        left: 20%;
+        top: 29%;
+        color: #bf9b30;
+
+    }
+    aside{
+        position: absolute;
+        top: 10.5%;
+    }
+    .brandlogo img{
+        position: absolute;
+        left: 10%;
+        width: auto;
+        height: 200px;
+    }
+    .brandlogo span{
+        position: relative;
+        top: 70%;
+        left: 4%;
+        font-size: 15px;
+    }
+    .productframe{
+        position: absolute;
+        height: 350px;
+        width: 350px; 
+        left: 50%;
+    }
+    .topconnect ul li a{
+        font-size: 2em;
+        position: relative;
+        top: 37px;
+        left: 490px;
+    } 
+}
+
+@media only screen and (max-width: 710px) {
+    .productframe{
+        position: absolute;
+        height: 350px;
+        width: 350px; 
+        left: 45%;
+    }
+}
+@media only screen and (max-width: 710px) {
+    .topconnect 
+    .productframe{
+        position: absolute;
+        height: 320px;
+        width: 320px; 
+        left: 45%;
+    }
+
+}
+@media only screen and (max-width: 710px){
+    .topconnect ul li a{
+        position: absolute;
+        left: 20em;
+    }
+}
+@media only screen and (max-width: 590px) {
+    .ownerimg img{
+        height: auto;
+        width: 50px;
+        position: absolute;
+        left: 5%;
+        top: 25%;
+    }
+    header h1{
+        font-size: 3.5em;
+        position: absolute;
+        left: 15%;
+        top: 33%;
+        color: #bf9b30;
+    }
+    .brandlogo img{
+        position: absolute;
+        left: 20%;
+        top: 37%;
+        width: auto;
+        height: 150px;
+        
+    }
+    .brandlogo span{
+        position: relative;
+        font-size: 10px;
+        top: 62%;
+        left: 14%;
+    }
+    .productframe{
+        position: absolute;
+        height: 280px;
+        width: 280px; 
+        left: 50%;
+        top: 35%;
+    }
+}
+
+
+@media only screen and (max-width: 570px) {
+    .ownerimg img{
+        height: auto;
+        width: 50px;
+        position: absolute;
+        left: 5%;
+        top: 20%;
+    }
+    header h1{
+        font-size: 3.5em;
+        position: absolute;
+        left: 20%;
+        top: 27%;
+
+    }
+    .brandlogo img{
+        height: 110px;
+        width: auto;
+        position: absolute;
+        top: 9%;
+        left: 67%;
+    }
+    .topconnect ul li a{
+        position: absolute;
+        left: 65%;
+    }
+    .brandlogo span{
+        font-size: 10px;
+        top: 27%;
+        left: 55%;
+        position: relative;
+        
+    }
+    .productframe{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        bottom: 8%;
+        left: 28%;
+        top: 50%;
+    }
+}
+@media only screen and (max-width: 426px){
+    .ownerimg img{
+        height: auto;
+        width: 50px;
+        position: absolute;
+        left: 5%;
+        top: 20%;
+    }
+    .brandlogo img{
+        position: absolute;
+        top: 5%;
+        left: 60%;
+        height: 120px;
+        width: auto;
+    }
+    .brandlogo span{
+        position: relative;
+        font-size: 10px;
+        left: 50%;
+        top: 24%;
+    }
+    .productframe{
+        height: 250px;
+        width: 250px;
+        position: absolute;
+        left: 22%;
+        bottom: 8%;
+        background-size: 170px;
+        background-position-x: 40px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    header h1{
+        font-size: 3em;
+        position: absolute;
+        left: 20%;
+        top: 30%;
+    }
+    .topconnect ul li a{
+        position: absolute;
+        left: 60%;
+        font-size: 5.5625vw;
+        top: 29px;
+    }
+    .brandlogo img {
+        height: 140px;
+        width: auto;
+        position: absolute;
+        top: 5%;
+        left: 55%;
+    }
+    .brandlogo span {
+        font-size: 10px;
+        top: 28%;
+        left: 47%;
+        position: relative;
+    }
+    .productframe{
+        height: 250px;
+        width: 250px;
+        left: 17%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .ownerimg img {
+        height: auto;
+        width: 40px;
+        position: absolute;
+        left: 5%;
+        top: 20%;
+    }
+    header h1{
+        font-size: 2.5em;
+    }
+    .brandlogo img {
+        height: 120px;
+        width: auto;
+    }
+    .brandlogo span {
+        font-size: 8px;
+        top: 25%;
+        left: 50%;
+        position: relative;
+
+    }
+}
+@media only screen and (max-width: 280px) {
+    .ownerimg img {
+        height: auto;
+        width: 40px;
+        position: absolute;
+        left: 5%;
+        top: 20%;
+    }
+    header h1{
+        font-size: 2.5em;
+        left: 23%;
+        position: absolute;
+        top: 27%;
+    }
+    .topconnect ul li a{
+        font-size: 1.5em;
+    }
+    aside ul li{
+        position: relative;
+        top: 50px;
+    }
+    .brandlogo img {
+        height: 120px;
+        width: auto;
+        position: absolute;
+        top: 5%;
+        left: 50%;
+    }
+    .brandlogo span {
+        font-size: 8px;
+        top: 25%;
+        left: 43%;
+        position: relative;
+
+    }
+    .productframe{
+        height: 230px;
+        width: 230px;
+        left: 10%;
+        position: absolute;
+        bottom: 10%;
+    }
+}
